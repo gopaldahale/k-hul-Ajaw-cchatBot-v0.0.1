@@ -28,6 +28,84 @@
   color: #61dafb;
 }
 
+/* src/Chatbot.css */
+.chatbot {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.chatbot-messages {
+  height: 400px;
+  overflow-y: scroll;
+  padding: 10px;
+  border: 1px solid #e1e1e1;
+  margin-bottom: 10px;
+  background-color: #fff;
+}
+
+.user-message {
+  text-align: right;
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.bot-message {
+  text-align: left;
+  background-color: #e2e2e2;
+  color: black;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+form {
+  display: flex;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+form .flex-block{
+  width: 100%;
+  height: 300px;
+}
+
+.flex-block textarea {
+  height: 250px;
+}
+.flex-block .btn-submit button {
+  padding: 10px 20px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+h1 {
+  margin: 30px auto;
+  text-align: center;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
